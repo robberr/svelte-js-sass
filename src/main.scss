@@ -1,0 +1,43 @@
+@import './var.scss';
+h1 {
+    color: $blueviolet;
+}
+
+div {
+    background: $cadetblue;
+
+    > p {
+        color: #fff;
+    }
+}
+
+main {
+    text-align: center;
+    padding: 1em;
+    max-width: 240px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: $blue;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 100;
+}
+
+h2 {
+    color: $cadetblue;
+    font-weight: 300;
+    font-size: 40px;
+}
+h3 {
+    color: $chocolate;
+    font-weight: 300;
+    font-size: 30px;
+}
+@media (min-width: 640px) {
+    main {
+        max-width: none;
+    }
+}
+
