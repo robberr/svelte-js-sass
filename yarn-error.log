@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Usuario\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add morgan
+
+PATH: 
+  C:\Program Files\Git\cmd;C:\Program Files (x86)\iis express\PHP\v7.1;C:\Program Files\Rockwell Software\RSCommon;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\PROGRA~2\PICC;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Usuario\AppData\Roaming\npm;C:\Aplicaciones\mongodb-4.2.6\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+
+npm manifest: 
+  {
+    "name": "svelte-ts-sass",
+    "version": "0.0.0",
+    "description": "svelte-ts-sass",
+    "main": "server.js",
+    "scripts": {
+      "build": "rollup -c",
+      "dev": "rollup -c -w",
+      "start": "sirv public"
+    },
+    "author": {
+      "name": "robberr"
+    },
+    "devDependencies": {
+      "@rollup/plugin-commonjs": "^14.0.0",
+      "@rollup/plugin-node-resolve": "^8.0.0",
+      "rollup": "^2.3.4",
+      "rollup-plugin-livereload": "^2.0.0",
+      "rollup-plugin-svelte": "^6.0.0",
+      "rollup-plugin-terser": "^7.0.0",
+      "svelte": "^3.0.0",
+      "@types/node": "^8.0.14"
+    },
+    "dependencies": {
+      "node-sass": "^4.14.1",
+      "sirv-cli": "^1.0.0",
+      "svelte-preprocess": "^4.3.0"
+    }
+   
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

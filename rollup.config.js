@@ -4,7 +4,9 @@ import commonjs from '@rollup/plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 // add this import at the top v2 sass:
+import typescript from "@wessberg/rollup-plugin-ts";
 import preprocess from 'svelte-preprocess';
+//import typescript from '@rollup/plugin-typescript';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -71,7 +73,9 @@ export default {
 
 		// If we're building for production (npm run build
 		// instead of npm run dev), minify
-		production && terser()
+        production && terser(),
+        typescript()
+        //typescript({ sourceMap: !production })
 	],
 	watch: {
 		clearScreen: false

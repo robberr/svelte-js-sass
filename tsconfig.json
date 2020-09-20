@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "lib": [ "es6" ],
+    "sourceMap": true
+  },
+  "extends": "@tsconfig/svelte/tsconfig.json",
+
+  "include": [ "src/**/*", "src/node_modules" ],
+  "exclude": [ "node_modules/*", "__sapper__/*", "public/*" ]
+  
+}
